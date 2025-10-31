@@ -23,7 +23,7 @@ export const alertService = () => {
   class AlertServiceDemo extends Component {
     componentDidMount() {
       setTimeout(() => {
-        alert.message('A initial message', MSG_TIMEOUT);
+        alert.message('An initial message', MSG_TIMEOUT);
         alert.error('Error message');
         this.showCustomMessage();
       });
